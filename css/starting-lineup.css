@@ -20,10 +20,10 @@ body {
   body .foul-ball {
     margin: 10px 0;
     height: 216px;
-    background: url(/img/banner.jpg) no-repeat center;
+    background: url(img/banner.jpg) no-repeat center;
     background-size: contain; }
   body .main {
-    background: url(/img/background.jpg) no-repeat center fixed;
+    background: url(img/background.jpg) no-repeat center fixed;
     background-size: cover; }
     body .main #main-content {
       margin: 20px 0;
