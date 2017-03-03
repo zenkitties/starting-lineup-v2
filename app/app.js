@@ -50,33 +50,24 @@ startingApp.controller('HplController',['$scope', function($scope){
             name: 'The Catapult Loading System',
             url: 'http://gohpl.com/clsbook',
             description: 'This is a description of the catapult loading system.',
-            img: '/img/the-catapult-loading-system.png'
+            img: 'img/the-catapult-loading-system.png'
         },
         {
             id: '02',
             name: 'The Science of Sticky Coaching',
             url: 'http://gohpl.com/soscbook',
             description: 'This is a description of the science of sticky coaching.',
-            img: '/img/the-science-of-sticky-coaching.png'
+            img: 'img/the-science-of-sticky-coaching.png'
         },
         {
             id: '03',
             name: 'The Ugly Truth About Hitting Ground Balls',
             url: 'http://gohpl.com/uglytruthbook',
             description: 'This is a description of the ugly truth about hitting ground balls.',
-            img: '/img/the-ugly-truth-about-hitting-ground-balls.png'
+            img: 'img/the-ugly-truth-about-hitting-ground-balls.png'
         }
     ]
 }]);
-    
-startingApp.controller('GithubController',['$scope'], function($scope){
-    $scope.github = [
-        {
-            acct: 'zenkitties',
-            branch: 'starting-lineup-v2'; 
-        }
-    ]
-})
     
     
     
