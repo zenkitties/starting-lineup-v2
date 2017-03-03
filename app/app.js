@@ -69,6 +69,15 @@ startingApp.controller('HplController',['$scope', function($scope){
     ]
 }]);
     
+startingApp.controller('GithubController',['$scope'], function($scope){
+    $scope.github = [
+        {
+            acct: 'zenkitties',
+            branch: 'starting-lineup-v2'; 
+        }
+    ]
+})
+    
     
     
     // DIRECTIVES ========================================
