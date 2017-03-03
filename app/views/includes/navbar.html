@@ -1,0 +1,34 @@
+<template name="navbar">
+  <script>
+      $(document).ready(function(){
+          console.log('I am ready');
+           $('#animate-contact-form').on('click', function(){
+        ('#contact-container').fadeIn('slow');
+    });  
+          
+      });
+  </script>
+  
+   <div class="row menu-items col-md-12">
+            <nav class="navbar col-md-8 col-md-offset-2">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="{{pathFor 'home'}}">Home</a></li>
+                        <li><a href="{{pathFor '8-free-bonuses'}}">8 FREE Bonuses!!</a></li>
+                        <li><a href="{{pathFor 'about-us'}}">About Us</a></li>
+                        <li><a href="{{pathFor 'faqs'}}">FAQ's</a></li>
+                        <li><a href="{{pathFor 'privacy-policy'}}">Privacy Policy</a></li>
+                        <li><a id="#animate-contact-form" href="#">Contact Us</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </nav><!--nav-->
+        </div><!--menu-items-->
+</template>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="startingApp">
+<head>
+    <meta charset="UTF-8">
+    <title>The Starting 9</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/starting-lineup.css">
+</head>
+<body>
+  <!-- CONTACT US FORM -->
+  <contact-us></contact-us>
+   <!-- HEADER WITH LOGO IMAGE -->
+    <header class="header">
+        <div class="row top-banner">
+            <div class="container">
+                <div class="col-md-6 brand">
+                    <div class="col-md-6"><a href="https://www.thestartinglineupstore.com/"><img src="/img/logo.png"></a></div>
+                    <div class="col-md-6"></div>  
+                </div><!--.brand-->
+            </div><!--.container-->
+        </div><!--top-banner-->
+        <!--NAVIATIONAL BAR --->
+        <div class="row menu-items col-md-12">
+            <nav class="navbar col-md-8 col-md-offset-2">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a ui-sref="home">Home</a></li>
+                        <li><a ui-sref="8-free-bonuses">8 FREE Bonuses!!</a></li>
+                        <li><a ui-sref="about-us">About Us</a></li>
+                        <li><a ui-sref="faqs">FAQ's</a></li>
+                        <li><a ui-sref="privacy-policy">Privacy Policy</a></li>
+                        <li><a class="animate-contact-form">Contact Us</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </nav><!--nav-->
+        </div><!--menu-items-->
+        <!-- LOWER BANNER -->
+        <div class="row lower-banner col-md-12"></div><!--lower-banner-->  
+    </header>
+    <!-- MAIN CONTENT AREA WITH UI VIEWS -->
+    <div class="main">
+        <div class="row">
+            <div class="container">
+              <div class="foul-ball col-md-12"></div>
+               <div ui-view id="main-content" class="col-md-8">
+                   
+               </div><!--#main-content ui-view-->
+               <aside id="starting-nine-right-nav" class="col-md-4">
+                   <div id="newsletter" class="col-md-12">
+                      <newsletter></newsletter>
+                   </div>
+                   <div id="hitting-performance-lab-products" class="col-md-12">
+                       <hpl-products></hpl-products>
+                   </div><!--#hitting-performance-lab-products -->
+               </aside><!--#hitting-performance-lab-->
+            </div>
+        </div><!--.row-->
+    </div><!--.main-->
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="row">
+            <div class="container">
+               <ul class="footer-nav">
+                    <li><a ui-sref="#">Site Map</a></li>
+                    <li><a ui-sref="#">Search Terms</a></li>
+                    <li><a ui-sref="#">Orders and Returns</a></li>
+                    <li><a class="animate-contact-form">Contact Us</a></li>
+               </ul>
+               <p id="copyright">All rights reserved. The Starting Lineup and/or its Affiliates. &copy;2017 The Starting Lineup Store.</p>
+                
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Angular scripts -->
+   <script src="js/angular.min.js"></script>
+   <script src="js/angular-ui-router.js"></script>
+   <script src="js/angular-animate.min.js"></script>
+   <script src="app/app.js"></script>
+   <!-- jQuery scripts -->
+   <script src="js/jquery-3.1.1.min.js"></script>
+   <!--bootstraps js files -->
+   <script src="js/bootstrap.min.js"></script>
+   <!-- contact js files -->
+   <script src="app/contact.js"></script> 
+</body>
+</html>
+
+   
+
+    

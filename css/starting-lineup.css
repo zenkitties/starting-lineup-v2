@@ -1,0 +1,210 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+* {
+  position: relative; }
+
+html, body {
+  height: 100vh;
+  width: 100vw; }
+
+body {
+  font: Raleway, sans-serif, Arial, Helvetica;
+  background-color: white;
+  font-size: 16px;
+  color: #333333; }
+  body a {
+    color: white;
+    transition: all 250ms ease-in-out; }
+  body a:hover {
+    text-decoration: none;
+    color: #470008; }
+  body .foul-ball {
+    margin: 10px 0;
+    height: 216px;
+    background: url(/img/banner.jpg) no-repeat center;
+    background-size: contain; }
+  body .main {
+    background: url(/img/background.jpg) no-repeat center fixed;
+    background-size: cover; }
+    body .main #main-content {
+      margin: 20px 0;
+      padding: 20px 30px;
+      min-height: 500px;
+      background-color: rgba(255, 255, 255, 0.8);
+      -webkit-box-shadow: 7px 7px 24px 0px rgba(0, 0, 0, 0.37);
+      -moz-box-shadow: 7px 7px 24px 0px rgba(0, 0, 0, 0.37);
+      box-shadow: 7px 7px 24px 0px rgba(0, 0, 0, 0.37); }
+      body .main #main-content h1 {
+        color: #e0001a; }
+  body .animate-contact-form:hover {
+    cursor: pointer; }
+
+div#newsletter, div#hitting-performance-lab-products {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #e0001a;
+  min-height: 200px; }
+  div#newsletter .form-box, div#hitting-performance-lab-products .form-box {
+    padding: 20px;
+    background-color: white;
+    height: 100%; }
+    div#newsletter .form-box a, div#hitting-performance-lab-products .form-box a {
+      color: #e0001a;
+      transition: all 250ms ease-in-out; }
+    div#newsletter .form-box a:hover, div#hitting-performance-lab-products .form-box a:hover {
+      text-decoration: none;
+      color: #470008; }
+    div#newsletter .form-box p, div#newsletter .form-box h2, div#hitting-performance-lab-products .form-box p, div#hitting-performance-lab-products .form-box h2 {
+      text-align: center; }
+    div#newsletter .form-box form, div#hitting-performance-lab-products .form-box form {
+      margin-bottom: 10px; }
+  div#newsletter .hpl-container, div#hitting-performance-lab-products .hpl-container {
+    padding: 20px;
+    background-color: white;
+    min-height: 200px; }
+    div#newsletter .hpl-container img, div#hitting-performance-lab-products .hpl-container img {
+      width: 100%; }
+
+div#hitting-performance-lab-products {
+  margin: 0 0 20px 0; }
+
+.header .top-banner {
+  width: 100%;
+  padding: 0;
+  border-bottom: 5px solid white;
+  background: #b5dcee;
+  background: -moz-linear-gradient(top, #b5dcee 0%, #2ab9e5 50%, #2ab9e5 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #b5dcee), color-stop(50%, #2ab9e5), color-stop(100%, #2ab9e5));
+  background: -webkit-linear-gradient(top, #b5dcee 0%, #2ab9e5 50%, #2ab9e5 100%);
+  background: -o-linear-gradient(top, #b5dcee 0%, #2ab9e5 50%, #2ab9e5 100%);
+  background: -ms-linear-gradient(top, #b5dcee 0%, #2ab9e5 50%, #2ab9e5 100%);
+  background: linear-gradient(to bottom, #b5dcee 0%, #2ab9e5 50%, #2ab9e5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#29b9e5', GradientType=0 ); }
+  .header .top-banner .brand img {
+    margin-bottom: -4px; }
+
+.header .menu-items {
+  -webkit-box-shadow: inset 0px 7px 10px 0px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: inset 0px 7px 10px 0px rgba(0, 0, 0, 0.32);
+  box-shadow: inset 0px 7px 10px 0px rgba(0, 0, 0, 0.32);
+  background-color: #e0001a;
+  height: 50px;
+  z-index: 10; }
+
+.header .navbar {
+  display: block;
+  text-align: center; }
+  .header .navbar .navbar-nav {
+    float: none; }
+  .header .navbar ul {
+    display: inline-block; }
+  .header .navbar a {
+    font-weight: bold;
+    color: white;
+    background-color: transparent; }
+  .header .navbar a:hover {
+    color: #cccccc;
+    background-color: transparent; }
+  .header .navbar a:focus {
+    background-color: rgba(255, 20, 48, 0.4); }
+
+div#about-container a {
+  color: #e0001a;
+  transition: all 250ms ease-in-out; }
+
+div#about-container a:hover {
+  color: #470008; }
+
+ul.eight-bonus, ul.faq-bullets {
+  list-style-type: none;
+  text-indent: -.75em; }
+  ul.eight-bonus i.fa-check, ul.faq-bullets i.fa-check {
+    color: #e0001a; }
+
+div#faqs a {
+  color: #e0001a;
+  transition: all 250ms ease-in-out; }
+
+div#faqs a:hover {
+  color: #470008; }
+
+div#privacy-container a {
+  color: #e0001a;
+  transition: all 250ms ease-in-out; }
+
+div#privacy-container a:hover {
+  color: #470008; }
+
+#animate-contact-form:hover {
+  cursor: pointer; }
+
+#back-to-top {
+  position: fixed;
+  visibility: hidden;
+  bottom: 25px;
+  right: 20px;
+  border: 1px solid #333333;
+  border-radius: 40px;
+  padding: 13px 16px;
+  transition: all 250ms ease-in-out; }
+  #back-to-top a {
+    color: #333333; }
+
+#back-to-top:hover {
+  background-color: #ad0014; }
+  #back-to-top:hover a {
+    color: white; }
+
+.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible !important;
+  opacity: .75; }
+
+.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .50; }
+
+contact-us {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#contact-container {
+  background-color: white;
+  border: 25px solid #e0001a;
+  z-index: 1000;
+  padding: 20px;
+  position: absolute;
+  top: -700px;
+  display: none; }
+  #contact-container #close-div {
+    z-index: 1000; }
+  #contact-container .close-the-div {
+    color: #e0001a;
+    font-weight: bold;
+    transition: all 500ms ease-in-out;
+    float: right; }
+  #contact-container .close-the-div:hover {
+    cursor: pointer;
+    color: #000;
+    font-weight: bolder; }
+
+.footer {
+  background-color: #e0001a;
+  height: 10%;
+  width: 100%;
+  -webkit-box-shadow: inset 0px 7px 10px 0px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: inset 0px 7px 10px 0px rgba(0, 0, 0, 0.32);
+  box-shadow: inset 0px 7px 10px 0px rgba(0, 0, 0, 0.32);
+  font-size: 12px; }
+  .footer ul {
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    -webkit-padding-start: 0; }
+    .footer ul li {
+      display: inline-block;
+      padding: 0 15px; }
+  .footer #copyright {
+    color: white;
+    text-align: center; }
